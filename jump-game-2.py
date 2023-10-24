@@ -10,3 +10,4 @@ class Solution:
                 jumps += 1
             current_steps_count = max(current_steps_count, i + nums[i])
         return jumps
+    
